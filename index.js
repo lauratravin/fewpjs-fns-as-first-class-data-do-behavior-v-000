@@ -34,7 +34,7 @@
 //   document.getElementById('greeting').textContent = myText;
 //
 // }
-;;;;
+// ;;;;
 
 function handleClick(e) {
   const timeString = document.getElementById('time').value
