@@ -57,6 +57,7 @@ function greet(timeStr) {
    * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error#Throwing_a_generic_error
    *
    */
+   console.log(timeStr)
   const hour = parseInt(timeStr, 10);
   if ( hour < 12) return "Good Morning"
   if ( hour > 17) return "Good Evening"
